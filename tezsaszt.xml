@@ -1,8 +1,3 @@
 <?xml version="1.0"?>
-<!DOCTYPE foo [
-  <!ENTITY xxe SYSTEM "file:///etc/passwd">
-]>
-<root>
-  <data>&xxe;</data>
-</root>
+<root>test</root>
 
