@@ -3,9 +3,17 @@
   <Ad>
     <InLine>
       <AdSystem>Test</AdSystem>
+      <AdTitle>Test Ad</AdTitle>
+      <Impression><![CDATA[http://evil.com/track]]></Impression>
       <Creatives>
         <Creative>
           <Linear>
+            <Duration>00:00:30</Duration>
+            <MediaFiles>
+              <MediaFile type="video/mp4" delivery="progressive">
+                <![CDATA[http://example.com/video.mp4]]>
+              </MediaFile>
+            </MediaFiles>
             <VideoClicks>
               <ClickThrough><![CDATA[javascript:alert(document.domain)]]></ClickThrough>
             </VideoClicks>
